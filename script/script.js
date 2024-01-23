@@ -47,12 +47,9 @@ function winner() {
     let won = false;
     for (i = 0; i < winOptions.length; i++) {
         let option = winOptions[i];
-        let lineA = options[option[0]]
-        let lineB = options[option[1]]
-        let lineC = options[option[2]]
-        if (lineA == "" || lineB == "" || lineC == "") {
-            continue;
-        }
+        let lineA = options[option[0]];
+        let lineB = options[option[1]];
+        let lineC = options[option[2]];
         if (lineA == lineB && lineB == lineC) {
             won = true;
             break;
