@@ -27,6 +27,37 @@
 
     <button class="restart_button">Restart</button>
 
+    <!-- Calculator  -->
+
+    <div class="calculator">
+        <form class="calculator_form">
+            <div class="input_div">
+                <input class="main_input" readonly>
+            </div>
+            <div class="buttons">
+                <button type="button" onclick="addToInput('1')" class="btns">1</button>
+                <button type="button" onclick="addToInput('2')" class="btns">2</button>
+                <button type="button" onclick="addToInput('3')" class="btns">3</button>
+                <button type="button" onclick="addToInput('/')" class="btns">/</button>
+                <button type="button" onclick="addToInput('4')" class="btns">4</button>
+                <button type="button" onclick="addToInput('5')" class="btns">5</button>
+                <button type="button" onclick="addToInput('6')" class="btns">6</button>
+                <button type="button" onclick="addToInput('*')" class="btns">*</button>
+                <button type="button" onclick="addToInput('7')" class="btns">7</button>
+                <button type="button" onclick="addToInput('8')" class="btns">8</button>
+                <button type="button" onclick="addToInput('9')" class="btns">9</button>
+                <button type="button" onclick="addToInput('+')" class="btns">+</button>
+                <button type="button" onclick="addToInput('0')" class="btns">0</button>
+                <button type="button" onclick="addToInput('.')" class="btns">.</button>
+                <button type="button" onclick="clearInput()" class="btns">AC</button>
+                <button type="button" onclick="addToInput('-')" class="btns">-</button>
+                <button type="button" onclick="calculate()" class="btns equal">=</button>
+
+
+            </div>
+        </form>
+    </div>
+
 
 
     <script src="script/script.js"></script>
