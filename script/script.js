@@ -1,3 +1,5 @@
+//Tic Tac Toe
+
 let box = document.querySelectorAll(".box");
 let text = document.querySelector(".text");
 let restartBtn = document.querySelector(".restart_button");
@@ -80,3 +82,5 @@ function restartGame() {
     box.forEach(box => box.textContent = "");
     running = true;
 }
+
+//Calculator
